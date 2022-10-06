@@ -1,0 +1,34 @@
+#backHome{
+    background-image: url('../../../public/EG-en-20220718-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: no-repeat;
+      /* box-shadow: inset 0 0 5px 2px #1a1a1b; */
+      height: 100vh;
+
+}
+.brows{
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.butto{
+    background:#e84545;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .butto:hover
+  {
+    background: #e52e2e;
+  }
